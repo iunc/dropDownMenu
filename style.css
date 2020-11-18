@@ -1,0 +1,98 @@
+body {
+  background: #dedede;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+body .dropdown {
+  margin: 0 auto;
+}
+body .dropdown nav {
+  height: 60px;
+  background: #2c3e50;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+body .dropdown nav .logo {
+  padding: 5px 0 0 80px;
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+}
+body .dropdown nav ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-right: 30px;
+}
+body .dropdown nav ul .tutorials {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+body .dropdown nav ul .tutorials li {
+  width: 150px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+body .dropdown nav ul .web {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+body .dropdown nav ul .web li {
+  width: 150px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+body .dropdown nav ul .web li .others {
+  display: none;
+}
+body .dropdown nav ul .web li .others li {
+  position: relative;
+  top: -60px;
+  left: 180px;
+}
+body .dropdown nav ul .web li i {
+  transform: rotate(-90deg);
+}
+body .dropdown nav ul li {
+  background: #2c3e50;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+body .dropdown nav ul li:hover .tutorials {
+  display: block;
+}
+body .dropdown nav ul li:hover .web {
+  display: block;
+}
+body .dropdown nav ul li:hover .web li:hover .others {
+  display: block;
+}
+body .dropdown nav ul li a {
+  display: block;
+  padding: 0 15px;
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 20px;
+}
+body .dropdown nav ul li a:hover {
+  background: #243342;
+}
+body .bg {
+  padding: 0 20px;
+}
+body .bg img {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px 0;
+}
+body .bg p {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=style.css.map */
